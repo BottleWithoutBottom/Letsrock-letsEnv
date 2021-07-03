@@ -1,0 +1,19 @@
+{
+  "name": "letsrock/letsenv",
+  "license": "proprietary",
+  "minimum-stability": "alpha",
+  "authors": [
+    {
+      "name": "Leonid Titov",
+      "email": "shredder139@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "vlucas/phpdotenv": "^5.3",
+    "letsrock/singleton": "^1"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
